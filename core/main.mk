@@ -373,6 +373,10 @@ else
 endif
 
 # ------------------------------------------------------------
+# Include vendor specific additions to build properties
+-include vendor/xdroid/build/core/main.mk
+
+# ------------------------------------------------------------
 # Define a function that, given a list of module tags, returns
 # non-empty if that module should be installed in /system.
 
